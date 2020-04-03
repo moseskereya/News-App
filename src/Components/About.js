@@ -7,9 +7,7 @@ class About extends Component {
         super(props);
         this.state = { news : [] }
     }
-
     componentDidMount (){
-
         const apiKey = '722acf4ca2af40939dfe85afcd600412'
         const q = 'news'
         axios.get(`http://newsapi.org/v2/everything?q=${q}&from=Today&sortBy=publishedAt&apiKey=${apiKey}`)

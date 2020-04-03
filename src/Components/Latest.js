@@ -9,7 +9,6 @@ class Search extends Component {
         super(props);
         this.state = { news : [] }
     }
-
     Search = (e) =>{
         e.preventDefault()
         const apiKey = '722acf4ca2af40939dfe85afcd600412'
@@ -24,7 +23,7 @@ class Search extends Component {
             console.log(error)
         })
     }
-    
+
     render() { 
         return ( 
             <>
