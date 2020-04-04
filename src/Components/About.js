@@ -10,7 +10,7 @@ class About extends Component {
     componentDidMount (){
         const apiKey = '722acf4ca2af40939dfe85afcd600412'
         const q = 'news'
-        axios.get(`http://newsapi.org/v2/everything?q=${q}&from=Today&sortBy=publishedAt&apiKey=${apiKey}`)
+        axios.get(`https://newsapi.org/v2/everything?q=${q}&from=Today&sortBy=publishedAt&apiKey=${apiKey}`)
         .then(response => {
             console.log(response.data)
             this.setState({news:response.data.articles})

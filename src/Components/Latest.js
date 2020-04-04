@@ -13,7 +13,7 @@ class Search extends Component {
         e.preventDefault()
         const apiKey = '722acf4ca2af40939dfe85afcd600412'
         const article = e.target.elements.articles.value;
-        axios.get(`http://newsapi.org/v2/everything?q=${article}&from=yesterday&to=now&sortBy=popularity&apiKey=${apiKey}`)
+        axios.get(`https://newsapi.org/v2/everything?q=${article}&from=yesterday&to=now&sortBy=popularity&apiKey=${apiKey}`)
 
         .then(response => {
             this.setState({news: response.data.articles})
