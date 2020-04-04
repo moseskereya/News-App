@@ -4,6 +4,7 @@ import {Link} from 'react-router-dom'
 class Head extends Component {
     state = {  }
     render() { 
+        const time = new Date()
         return ( 
             <div className="hero">
             <div className="hero-clipped">
@@ -13,8 +14,11 @@ class Head extends Component {
                </Slide>
                     <h2 className="sub-heading">Read more</h2>
                     <Link to="/About">
-                         <a href="#" className="cta-btn">Get Latest news</a>
+                         <a className="cta-btn">Get Latest news</a>
                     </Link>
+                    <p className="time">
+                        {time.toDateString()}
+                    </p>
                 </div>
             </div>
         </div>
