@@ -12,7 +12,7 @@ class Head extends Component {
                 <Slide left>
                     <h1 className="main-heading">Online News</h1>
                </Slide>
-                    <h2 className="sub-heading">Read more</h2>
+                    <h2 className="sub-heading">Get news from all around the world </h2>
                     <Link to="/About">
                          <a className="cta-btn">Get Latest news</a>
                     </Link>
