@@ -9,7 +9,7 @@ class Head extends Component {
             <div className="hero-clipped">
                 <div className="hero-textbox">
                 <Slide left>
-                    <h1 className="main-heading">Online Magazine App</h1>
+                    <h1 className="main-heading">Online News</h1>
                </Slide>
                     <h2 className="sub-heading">Read more</h2>
                     <Link to="/About">

@@ -90,7 +90,7 @@ font-family: var(--main-font);
     background-color: #ebebeb;
     max-width: 500px;
     height: auto;
-    transition: .3s ease-in-out;
+    transition: .8s ease-in-out;
     flex-wrap: wrap;
 }
 .items:hover{
@@ -362,6 +362,7 @@ align-items: center;
 margin: 20px auto;
 background-color: #c5c5c4;
 display: flex;
+padding: 50px 0;
 width: 100%;
 justify-content: space-around;
 flex-wrap: wrap;
@@ -378,8 +379,8 @@ align-items: center;
 }
 
 .dev-content1 {
-    max-width: 400px;
-    width: 50%;
+    max-width: 500px;
+    width: 100%;
     height: auto;
     padding: 10px;
     margin: 10px;
