@@ -274,7 +274,6 @@ select{
 
  /* details */
 
-
 .items-details{
     max-width: 800px;
     margin: 20px auto;
@@ -416,11 +415,15 @@ align-items: center;
 }
 
 @media screen and (max-width:768px){
+    .hero{
+        height:60vh;
+    }
     .main-heading{
         font-size: 1.5rem;
     }
     .sub-heading{
-        font-size: 1.2rem;
+        font-size: 1.1rem;
+        padding: 2px;
     }
     .cta-btn{
         display: none;
@@ -473,5 +476,8 @@ align-items: center;
     .item-details{
         width: 100%;
         margin: 10px 5px; 
+    }
+    .title {
+        font-size: 24px;
     }
 }
