@@ -413,6 +413,24 @@ align-items: center;
     margin: 10px;
     color: rgba(0,0,0,.5);
 }
+.top {
+    padding: 15px 0;
+    margin:10px auto;
+}
+.top h3{
+    outline-color: initial;
+    font-family: var(--secondary-font);
+    letter-spacing: 3px;
+    font-size: 30px;
+    color: var(--secondary-font-color);
+}
+.line2{
+    width: 112px;
+    height: 47px;
+    border-bottom: 2px solid crimson;
+    position: relative;
+    margin:3px auto;
+}
 
 @media screen and (max-width:768px){
     .hero{

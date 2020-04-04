@@ -3,6 +3,7 @@ import {Link} from 'react-router-dom'
 import axios from 'axios'
 import Footer from "./End"
 import Fade from 'react-reveal/Fade';
+import Top from "./Top"
 class Home extends Component {
     constructor(props) {
         super(props);
@@ -25,6 +26,7 @@ class Home extends Component {
     render() { 
         return ( 
             <>
+            <Top/>
             <div className="container">
                 {
                     this.state.news.map(item => {
