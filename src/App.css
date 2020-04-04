@@ -389,12 +389,24 @@ align-items: center;
     position: relative;
     width: 100%;
 }
+.dev-content2 h3{
+    font-family: var(--main-font);
+    text-transform: uppercase;
+    margin: 15px 0;
+    padding: 10px 0;
+    letter-spacing: 5px;
+}
+.dev-content2 p{
+    letter-spacing: 1px;
+    /* padding: 4px; */
+}
 
 .dev-content2{
-    max-width: 400px;
-    width: 50%;
+    max-width: 500px;
+    width: 100%;
+    background-color:#ddd;
     height: auto;
-    padding: 10px;
+    padding: 20px;
     margin: 10px;
 }
 
